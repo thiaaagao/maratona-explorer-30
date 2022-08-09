@@ -2,12 +2,14 @@
 
 :root{  
     --text-font: 'Inter';
+    --gradient-color:linear-gradient(rgba(240,246,238,1) 67.4% );
+    --color-bck: #FFEDD5;
 
 }
 
 *{
     font-family: var(--text-font);
-    font-size: 12px;
-/*     margin: 0 auto; */
+    background-color: var(--color-bck);
+    /*margin: 0 auto; */
 
 }
