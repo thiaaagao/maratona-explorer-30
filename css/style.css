@@ -1,18 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
 
 :root{  
-    --text-font: 'Inter';
-    --gradient-color:linear-gradient(rgba(240,246,238,1) 67.4% );
+    --text-font: 'Inter';/* 
+    --bckg-img:url("./img/fundo.jpg") */
     --color-bck: #FFEDD5;
 
 }
 
 *{
-    font-family: var(--text-font);
-    background-color: var(--color-bck);
-
+    font-family: var(--text-font);/* 
+    background-color: var(--color-bck); */
+    
     margin: 0;
     padding: 0;
+
+}
+/* PALETA CORES: #F9EEC9 - #D3B786 - #886838 - #AF672D - #E4B455 - #770D15 - #B4000F - #58483A - #90A74C - #597718 */
+body{
+    background-color: #F9EEC9;
 
 }
 
@@ -23,43 +28,45 @@ h1, h2, h3, .price {
     color: #2D2C2A;
 }
 
+span{
+    background-color: #597718;
+    border-radius: 8px;
+
+    padding: 0 2.5px 0;
+
+}
 
 header{
-    padding: 32px 0;
-    text-align: center;
-}
-
-/* img{
-    display: inline-flex;
-    position: relative;
-    
-    background-color: none;
-    left: 750px;
-    top: 125px;
-    bottom: 0;
-
-    margin: 0 auto;
+    padding: 35px 0;
+    text-align: center;   
 
 }
- */
 
+ /* HEADER NAME */
 header, section{
+    
     max-width: 300px;
     margin: 0 auto;
 
 }
 
 header h1{
-    margin-bottom: 4px;
+    margin-bottom: 5px;
     font-size: 28px;
-    line-height: 33px;
-    color: #b45237;
-    text-shadow: 0.47px 0.47px #000;
+    line-height: 40px;
+        
+    color: #B4000F;
+    text-shadow: 0.75px 0.75px #eadac0;
 
 }
 
 header h1 span{
-    color: #f5f5f5;
+
+    letter-spacing: 0.05em;
+    line-height: 32px;
+    color: #F9EEC9;
+    text-shadow: 0.50px 0.50px #B4000F;
+
 }
 
 header p{
@@ -77,14 +84,16 @@ section{
 }
 
 section h2{
-    background-color: #f5f5f5;
+    background-color: #B4000F;
 
-    color: #0f0f01;
+    color: #FFF;
     padding: 8px 16px;
     text-align: center;    
 
     margin-bottom: 24px;
     font-size: 18px;
+
+    border-radius: 10px;
 }
 
 /* LISTAS */
